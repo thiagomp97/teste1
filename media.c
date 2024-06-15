@@ -15,7 +15,7 @@ int main(void)
     printf("\n[.] Qual o nome do aluno(a)?\n[R] ");
     scanf("%[^\n]s", &alunoNome);
 
-    printf("\n[.] Qual � o percentual de presen�as do Aluno(a)?\n[R] ", alunoNome);
+    printf("\n[.] Qual  o percentual de presenças do Aluno(a)?\n[R] ", alunoNome);
     scanf("%f", &presenca);
 
     printf("\n[.] Nota final do primeiro bimestre?\n[R] ");
@@ -36,7 +36,7 @@ system("pause");
     printf("\n[2] Nota do Primeiro Simestre: %.2f", N1);
     printf("\n[3] Nota do Segundo Bimestre: %.2f:", N2);
     printf("\n[4] Media Final: %.2f", mediaAluno);
-    printf("\n[5] Total de Presen�as: %.2f", presenca);
+    printf("\n[5] Total de Presenças: %.2f", presenca);
   
     if (mediaAluno >= 60.00 && presenca < 75.00) {
         printf("\n[6] Aluno reprovado por frequência :[\n\n");
