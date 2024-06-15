@@ -10,7 +10,7 @@ int main(void)
     float mediaAluno, presenca;
     float N1, N2;
 
-    printf("\n[Aqui calcularemos a media de alunos para ver se estar aprovado ou reprovado com a condicao das presencas]\n");
+    printf("\n[Aqui calcularemos a media de alunos para ver se estara aprovado ou reprovado com a condicao das presencas]\n");
         
     printf("\n[.] Qual o nome do aluno(a)?\n[R] ");
     scanf("%[^\n]s", &alunoNome);
@@ -39,13 +39,13 @@ system("pause");
     printf("\n[5] Total de Presen�as: %.2f", presenca);
   
     if (mediaAluno >= 60.00 && presenca < 75.00) {
-        printf("\n[6] Aluno reprovado por frequ�ncia :[\n\n");
+        printf("\n[6] Aluno reprovado por frequência :[\n\n");
         
     } else if (mediaAluno < 60.00 && presenca >= 75.00) {
         printf("\n[6] Aluno reprovado por nota :[\n\n");
         
     } else if (mediaAluno < 60.00 && presenca < 75.00) {
-        printf("\n[6] Aluno reprovado por nota e frequ�ncia x[\n\n");
+        printf("\n[6] Aluno reprovado por nota e frequência x[\n\n");
 
     } else {
         printf("\n[6] Aluno Aprovado :D\n\n", alunoNome);
